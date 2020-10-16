@@ -5,7 +5,8 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ]
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
   },
   "scripts": {
     "android": "yarn workspace mobile android",
