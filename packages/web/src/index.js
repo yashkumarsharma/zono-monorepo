@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import Hello from '@zono/components/HelloWeb'
+import Hello from '@zono/components/dist'
 
 ReactDOM.render(
   <React.StrictMode>
